@@ -1,0 +1,54 @@
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+background-color: black;
+
+}
+
+#wrapper {
+max-width: 960px;
+margin:0 auto;
+
+}
+
+
+header {
+	background-image: url(../Images/background.jpg) ;
+}
+
+
+img
+{
+	margin:0 auto;
+	display: block;
+	max-width: 100%;
+	width: 35%;
+	padding: 2%;
+}​
+
+
+section{
+	max-width: 90%;
+}
+article {
+max-width: 49%;
+float: left;
+padding: 1.5%;
+
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-align: justify;
+}
+
+ h1 {
+font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 1.5em;}
+
