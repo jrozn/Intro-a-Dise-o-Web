@@ -1,0 +1,119 @@
+
+
+body{
+
+background:black;
+
+
+}
+
+.wrapper {
+max-width: 960px;
+margin:0 auto;
+
+}
+
+header {
+	text-align: center;
+	padding-top: 5%;
+}
+
+h1 {
+	font-size: 8em;
+	color: white;
+	font-family: 'Abril Fatface', cursive;
+
+		 -webkit-animation: fadein 2s ease-in; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+
+}
+
+.landing img{
+
+	margin-top: 20px;
+	max-width: 100%;
+	
+	 -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+.mano {
+width: 960px;
+margin: 100 auto;
+margin-top: 20px;
+;
+
+}
+
+.mano img {
+	float: left;
+	width: 300px;
+	padding-right:  4%;
+ -webkit-animation: fadein 2s ease-in; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+
+}
+.mano p {
+	font-size: 1.3em;
+	font-family: 'Playfair Display', serif;
+	color: white;
+	line-height: 1.2;
+	}
+
+.spotify{
+	border: black 2px solid;
+	margin: 0 auto;
+	padding: 2%;
+	max-width: 960px;
+	width: 100%;
+
+
+}
+
+.spotify h1 { 
+float: left;
+font-size: 2em;
+padding: 3%;
+margin-right: 20%;
+
+ }
+
+
+footer p {
+font-size: 0.5em;
+}
+
+
+
+
+ @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

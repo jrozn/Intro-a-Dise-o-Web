@@ -1,1 +1,0 @@
-Página experimental utilizando transiciones de CSS con colores complementarios.
