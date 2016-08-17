@@ -94,7 +94,7 @@ h1 {
 }
 
 .mano {
-width: 100%;
+width: 90%;
 
 ;
 
@@ -116,6 +116,7 @@ width: 100%;
 font-size: 5em;
 font-family: 'Bungee', cursive;
 margin-bottom: 10px;
+margin-top: 10px;
  }
 
 .mano p {
@@ -253,6 +254,23 @@ font-family: 'Oswald', sans-serif;
 
 }
 
+
+.concierto {
+padding-bottom: 1em;
+max-width: 90%;
+
+}
+
+.concierto h2 {
+ font-family: 'Bungee', cursive;
+ font-size: 6em;
+}
+
+.concierto p {
+font-family: 'Oswald', sans-serif;
+font-size: 1.5em;
+}
+
 .concierto1 button { {
 	background-color: black;
     border: none;
@@ -286,5 +304,4 @@ font-family: 'Oswald', sans-serif;
   -webkit-transform: scale(2);
   transform: scale(2);
 }
-
 
